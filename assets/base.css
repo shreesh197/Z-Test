@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #2d84ec;
+    --secondary-color: #fca429;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+button, button:focus {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+.main{
+    overflow: hidden;
+}
+.Home-area1{
+    background: #fff;
+}
+.main-home-main-area1 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIcons{
+    color: var(--primary-color);
+    height: 22px;
+    width: 22px;
+}
+.main-nav{
+    box-shadow: 0px 3px 12px #00000029;
+    padding: 20px 0px 20px 0px;
+}
+.oneProduct{
+    box-shadow: 0px 3px 12px #00000029;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.sidenav {
+    height: 100%;
+    /* width: 100%; */
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: all 0.25s ease;
+    transform: translateX(-100%);
+    box-shadow: 0 0 35px 0;
+}
+.sidenav-active {
+    /* opacity: 1; */
+    visibility: visible;
+    transition: all 0.25s ease;
+    transform: translateX(0);
+    width: 40%;
+}
+.home_para{
+    padding: 10px 0px 10px 20px;
+}
+.detailTab {
+    background-color: var(--primary-color);
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+.sidenav .closebtn {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.img-fluid1 {
+    width: 100%;
+    height: auto;
+}
+.category_container {
+    background: #f1f4ff;
+    border-radius: 8px;
+    padding-top: 13px;
+    width: 110px;
+    height: 110px;
+    
+}
+.heading{ margin-bottom: 20px; font-size: 20px;} 
+.commonRow{
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 20px;
+}
+
+.addToCart{
+    background: var(--secondary-color);
+    width: 100%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.goToSearch{
+    border-radius: 50%;
+    padding: 8px 5px 8px 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 3px 12px #00000029;
+}
+.searchbar1 {
+    margin: 0px 0px 15px -5px;
+    height: 44px;
+    background: #e7edfe;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 15px 8px 15px;
+}
+.search_input { 
+    width: 100%;
+    background: transparent;
+    border: none;
+}
